@@ -1,0 +1,371 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(180deg, #F5F5FA 0%, #F2DAD5 44.15%, #A1ABD6 100%);
+}
+
+
+.header {
+    width: 100%;
+    padding: 31.5px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.button {
+    background-color: #BB6BD9;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #A847CC;
+}
+
+.button_text {
+    padding: 0 30px;
+    line-height: 18px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 0 16px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.pricing_title{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    align-self: baseline;
+    color: #231D4F;
+}
+
+
+.pricing_text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #848199;
+    padding-right: 122px;
+    padding-bottom: 64px;
+}
+
+.description_plan{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #848199;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.description_plan.popular{
+    color: white;
+}
+
+.custom-icon {
+    list-style-image: url('../img/check-circle-1.svg');
+}
+
+.choice {
+    list-style-image: url('../img/check-circle.svg');
+}
+
+.text_li{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #848199;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.text_li.popular{
+    color: white;
+}
+
+.plans {
+    display: flex;
+}
+
+.active {
+    background-color: #BB6BD9;
+    color: white;
+}
+
+
+.toggle-buttons button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: #231D4F;
+    border-radius: 25px;
+    position: relative!important;
+}
+
+.toggle-buttons button.active {
+    background-color: #BB6BD9;
+    color: white;
+    position: absolute;
+}
+
+.pricing_line{
+    display: flex;
+    align-self: baseline;
+}
+
+.button_white{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button_text_active{
+    margin: 13px 24px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.colums{
+    padding-left: 34px;
+}
+
+.button.active:hover{
+    background-color: transparent;
+}
+
+.button_text_notactive{
+    line-height: 18px;
+    margin: 13px 24px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.plans{
+    background: #FFFFFFA3;
+    padding: 20px 68px;
+    border-radius: 25px;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.plans_price{
+    display: flex;
+    align-items:center;
+}
+
+.price{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    color: #231D4F;
+}
+
+.price.popular{
+    color: white;
+}
+
+.duration{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #848199;
+}
+
+.duration.popular{
+    color: white;
+}
+
+.name_plan{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #231D4F;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.name_plan.popular{
+    color: white;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.colums.popular{
+    background-color: #231D4F;
+    box-shadow: 0px 42px 34px 0px #5243C24B;
+    color: white;
+    padding: 0 30px 20px 30px;
+    border-radius: 25px;
+    margin: -75px 0 0 34px
+}
+
+
+.button_plan{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    background-color: #231D4F;
+    padding: 11px 55px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 85px;
+}
+
+.button_plan:hover{
+    background: #A847CC;
+}
+
+.button_plan.second {
+    margin-top: 54px;
+}
+
+.button_plan.third{
+    margin-top: 21px;
+    background-color: #BB6BD9;
+    
+}
+
+.button_plan.third:hover{
+    background: #A847CC;
+}
+
+.button_plan:hover{
+    background: #A847CC;
+}
+
+.button_popular{
+    margin: 27px 0 25px 0;
+    align-self:flex-end!important;
+    padding: 5px 16px 7px 17px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 15px;
+    letter-spacing: 0.8333333134651184px;
+    text-align: center;
+    color: #BB6BD9;
+    background-color: #403879;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    left: 45%;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .header button {
+        display: none;
+    }
+    .pricing_line{
+        display:block;
+        align-self: center;
+    }
+    .pricing_title{
+        align-self: center;
+    }
+    .pricing_text{
+        padding-right: 0;
+    }
+    .plans{
+        flex-direction: column;
+        padding: 32px 28px;
+        margin-top: 80px;
+    }
+    .colums.popular{
+        margin: -75px 0 0 0px;
+    }
+    .colums.second{
+        padding-bottom: 80px;
+    }
+    .colums{
+        margin-bottom: 48px;
+    }
+    .second{
+        margin-bottom: 48px;
+    }
+    .toggle-buttons button {
+        position: relative;
+        left: 19%;
+    }
+    .button_popular{
+        position: relative;
+        left: 20%;
+    }
+}
